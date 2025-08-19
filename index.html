@@ -32,6 +32,10 @@
           </div>
         </div>
         <div id="unity-warning"></div>
+        <div class="credit">
+          In collaboration with:
+          <button class="credit-btn" onclick="openIlya()">Ilia Motlagh</button>
+        </div>
       </div>
       <div id="unity-fullscreen-button"></div>
     </div>
@@ -41,6 +45,13 @@
     <script src="dom.js"></script>
     <script>
       // Function to lock orientation to landscape on supported devices
+      function openIlya() {
+        window.open(
+          "https://www.linkedin.com/in/ilia-motlagh-76454417b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          "_blank"
+        );
+      }
+
       async function lockOrientation() {
         if (screen.orientation && screen.orientation.lock) {
           try {

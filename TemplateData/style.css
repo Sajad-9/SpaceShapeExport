@@ -102,3 +102,24 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+.credit {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.credit-btn {
+  margin-left: 5px;
+  color: white;
+  font-size: 20px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.credit-btn:hover {
+  color: gray;
+}
